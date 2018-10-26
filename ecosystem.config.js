@@ -25,6 +25,7 @@ module.exports = {
         port : '12178',
         repo : 'git@github.com:wf-yrx/express-test.git',
         path : '/home/yueyagou/www/wf',
+        
         'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
     }
   }
