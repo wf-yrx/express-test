@@ -18,7 +18,7 @@ module.exports = {
   }],
 
   deploy : {
-    test : {
+    production : {
         user : 'yueyagou',
         host : '47.107.74.126',
         ref  : 'origin/master',
