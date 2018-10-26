@@ -1,6 +1,6 @@
-var express = require('express');//引入express
-var app = express();// 初始化
-var path = require('path');// 引入path
+var express = require('express');
+var app = express();
+var path = require('path');
 
 app.use(express.static(path.join(__dirname, '/views')));
 app.set('views', (__dirname + '/views'));
